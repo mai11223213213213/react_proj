@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../assets/img/logo.png";
 import { Link } from 'react-router-dom';
+import Button from '../components/Button';
 
 const Header = () => {
     const headerMenu = [
@@ -26,6 +27,7 @@ const Header = () => {
                     <Link to={item.link}>{item.name}</Link>
                 ))}
             </nav>
+            <Button  bgColor="#E9D7A7" bgOpacity={0.1} textColor="#FFCE4E" padding="21px 30px" borderColor="#FFCE4E">Connect Wallet</Button>
            
 
 
