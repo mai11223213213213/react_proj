@@ -9,6 +9,7 @@ import {
 } from "react-router-dom"
 import Header from './sections/Header';
 import Hero from './sections/Hero';
+import Partners from './sections/Partners';
 
  
 function App() {
@@ -17,7 +18,11 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path='/explore' element={<Hero/>}/>
+        <Route path='/explore' element={
+            <>
+              <Hero/>
+              <Partners/>
+            </>}/>
       </Routes>
     </div>
     </Router>
