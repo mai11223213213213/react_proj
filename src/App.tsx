@@ -10,6 +10,7 @@ import {
 import Header from './sections/Header';
 import Hero from './sections/Hero';
 import Partners from './sections/Partners';
+import Auctions from './sections/Auctions';
 
  
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <>
               <Hero/>
               <Partners/>
+              <Auctions/>
             </>}/>
       </Routes>
     </div>
