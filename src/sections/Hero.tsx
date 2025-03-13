@@ -8,8 +8,8 @@ const Hero = () => {
             <div className="top-part">
                 <h1>Explore, Buy and Sell the <span>Best NFTs!</span></h1>
                 <div className="button">
-                    <Button bgColor="#FFCE4E" textColor="#000000" padding="24px 76px" borderColor="#FFCE4E">Connect Wallet</Button>
-                    <Button bgColor="#E9D7A7" bgOpacity={0.1} textColor="#FFFFFF" padding="24px 76px" borderColor="#FFCE4E">Connect Wallet</Button>
+                    <Button bgColor="#FFCE4E" textColor="#000000" padding="24px 76px" borderColor="#FFCE4E">Explore</Button>
+                    <Button bgColor="#E9D7A7" bgOpacity={0.1} textColor="#FFFFFF" padding="24px 76px" borderColor="#FFCE4E">Create</Button>
                 </div>
             </div>
             <div className="bottom-part">

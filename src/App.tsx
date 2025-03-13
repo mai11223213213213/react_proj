@@ -1,4 +1,6 @@
 import React from 'react';
+import "@mantine/core/styles.css";
+import "@mantine/carousel/styles.css";
 import "./styles/App.css"
 import {
   BrowserRouter as Router,
