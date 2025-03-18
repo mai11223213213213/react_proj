@@ -8,6 +8,8 @@ import auction2 from "../assets/img/crads/auction-2.png"
 import auction3 from "../assets/img/crads/auction-3.png"
 import users from "../assets/img/users/user-icon.png"
 import like_icon from "../assets/img/crads/like.svg"
+import {ReactComponent as Icon1} from "../assets/img/arrowRight.svg"
+import {ReactComponent as Icon2} from "../assets/img/arrowLeft.svg"
 const cards = [
   {
     img: auction1,
@@ -43,13 +45,15 @@ const Auctions = () => {
       <Heading bubleColor="#8613A5">Live Auctions</Heading>
 
       <Carousel
-        slideSize="70%"
+        slideSize="28%"
         height={691}
         align="start"
-        slideGap="md"
+        slideGap="45px"
         controlsOffset="xs"
         controlSize={40}
         loop
+        nextControlIcon={<Icon1 width={"54px"} height={"54px"}/>}
+        previousControlIcon={<Icon2 width={"54px"} height={"54px"}/>}
       >
         {cards.map((card) => (
           <Carousel.Slide>
