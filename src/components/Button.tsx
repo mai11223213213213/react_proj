@@ -7,6 +7,7 @@ interface buttonInterface {
   textColor: string;
   padding: string;
   children: ReactNode;
+  style?:object
 }
 
 const Button = ({
@@ -15,7 +16,8 @@ const Button = ({
   borderColor,
   textColor,
   padding,
-  children
+  children,
+  style
 }: buttonInterface) => {
   const getRGBA = (color: string, opacity: number) => {
     if (color.startsWith("#")) {
@@ -37,7 +39,9 @@ const Button = ({
         padding: padding,
         display: "flex",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        ...style
+        
       }}
     >
       {children}

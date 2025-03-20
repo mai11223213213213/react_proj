@@ -421,6 +421,25 @@ header.header nav.header-menu a:hover::after {
   transform: translateY(-50%);
 }
 
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how-it-works .steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how-it-works .steps .step {
+  display: flex;
+  flex-direction: column;
+}
+.how-it-works .steps .step img {
+  padding: 30px;
+  border-radius: 100%;
+  background-color: #372839;
+}
 body {
   background-color: #1C121F;
 }/*# sourceMappingURL=App.css.map */
